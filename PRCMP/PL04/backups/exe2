@@ -1,0 +1,11 @@
+if [ $# -ne 2 ]
+then
+    echo "AVISO: apenas 2 parâmetros (0 ou inteiros positivos)"
+    exit 1
+fi
+#echo "Qual e o nome a apresentar no ecra"
+#read nome
+#echo "Diretorio a listar"
+#read dir
+
+echo "Nome - $1 Dir - $2"

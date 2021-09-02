@@ -1,0 +1,5 @@
+mkdir backups
+cd backups
+mkdir $(date '+%F')
+find .. -type f \( -iname "*" ! -iname "daily_backup" \) -exec cp '{}' . \;
+

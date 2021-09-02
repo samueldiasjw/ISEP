@@ -1,0 +1,4 @@
+#O meu primeiro script
+
+echo "Olá mundo!"
+date

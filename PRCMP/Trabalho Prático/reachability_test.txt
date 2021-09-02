@@ -1,0 +1,8 @@
+Encontrado 3 máquinas ativas
+www.google.com
+www.ipp.pt
+127.0.0.1
+
+Encontrado 0 máquinas inativas
+
+Encontrado 0 máquinas inválidas

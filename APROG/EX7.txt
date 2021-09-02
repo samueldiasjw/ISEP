@@ -1,0 +1,34 @@
+Exercicio 7
+
+ED:
+	num,contaralg,originalnumber,reversenumber,alg,temp INTEIRO
+
+INICIO
+	contaralg <— 0
+	
+	REPETIR
+		LER(num)
+		originalnumber<—0
+
+		ENQUANTO(num <>0)
+			contaralg<— contaralg + 1
+			num <— num DIV 10
+		FIMENQUANTO
+	ENQUANTO(contaralg < 2 E num > 0)
+
+	num <— originalnumber
+	temp <— contaralg - 1
+
+	REPETIR PARA i<—1 ATE contaralg PASSO 1
+		alg <— num MOD 10
+		reversenumber <— reverse number + (alg * POT(10,temp))
+		temp <— temp - 1
+		num <— num DIV 10
+	FIMREPETIR
+
+	SE(originalnumber = reversenumber) ENTAO
+		ESCREVER(“CAPICUA”)
+	SENAO
+		ESCREVER(“NAO E CAPICUA”)
+	FIMSE
+FIM

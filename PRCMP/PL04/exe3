@@ -1,0 +1,6 @@
+if test -f $1
+then
+	more $1
+else
+	echo "NAO EXISTE"
+fi

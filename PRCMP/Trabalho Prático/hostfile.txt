@@ -1,0 +1,5 @@
+www.google.com
+www.ipp.pt
+www.isep.ipp.pt
+127.0.0.1
+www.bad-address.com
